@@ -11,5 +11,5 @@
   "preferGlobal": true,
   "bin": {
     "standup": "index.js"
-  },
+  }
 }
