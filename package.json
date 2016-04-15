@@ -2,6 +2,10 @@
   "name": "standup",
   "version": "1.0.0",
   "description": "git log recursively on repos to see what I did yesterday (or Friday if a Monday)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webdevstu/standup.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +15,7 @@
   "preferGlobal": true,
   "bin": {
     "standup": "index.js"
-  }
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
