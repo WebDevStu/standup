@@ -1,0 +1,15 @@
+{
+  "name": "standup",
+  "version": "1.0.0",
+  "description": "git log recursively on repos to see what I did yesterday (or Friday if a Monday)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stewart Anderson",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "standup": "index.js"
+  },
+}
