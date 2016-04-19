@@ -3,13 +3,11 @@
 "use strict";
 
 var util = require('util'),
-    exec = require('child_process').exec;
+    exec = require('child_process').exec,
 
+    dates = require('./lib/dates'),
+    parser = require('./lib/parser');
 
-// log out the output for now
-function logger (error, stdout, stderr) {
-    console.log(stdout)
-}
-
+console.log(dates);
 // git log
-exec("git log", logger);
+exec('git log --after=' + dates.after + ' --before=' + dates.before, parser.format);
