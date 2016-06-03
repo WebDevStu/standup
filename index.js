@@ -20,4 +20,6 @@ if (isGitRepo) {
 } else {
     // start to recursively go through all sub dirrectories looking for .git
     console.log('yolo');
+
+    
 }
