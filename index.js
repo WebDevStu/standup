@@ -17,7 +17,7 @@ console.log(isGitRepo, dates);
 if (isGitRepo) {
     // git log this repo
     exec('git log --after=' + dates.after + ' --before=' + dates.before, parser.format);
-
 } else {
-    // start to recursively go through all sub dirrectories lookign for .git
+    // start to recursively go through all sub dirrectories looking for .git
+    console.log('yolo');
 }
